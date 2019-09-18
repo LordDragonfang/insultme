@@ -9,8 +9,9 @@ piss
 cuck
 slut
 douche
-bitch?
-ass?
+bitch #?
+ass #?
+#phlegm #?
 )
 
 PRELEN=${#PREFIX[*]}
@@ -19,18 +20,21 @@ SUFFIX=(
 waffle
 muffin
 biscuit
-wheat?
+wheat #?
 wad
 weed
 stick
 face
-baby?
+baby #?
 nugget
 bag
 hole
 nozzle
 nuts
-socket?
+socket #?
+#lord
+dumpster
+pickle
 )
 
 SUFLEN=${#SUFFIX[*]}
@@ -43,6 +47,16 @@ buckwheat
 fucktrumpet
 "shart goblin"
 cockwaffle
+shitlord
 )
 
-echo ${PREFIX[$RANDOM % $PRELEN]}${SUFFIX[$RANDOM % $SUFLEN]}
+PHRASE=(
+"Smooth move, "
+"Nice going, "
+"Good job, "
+"Well done, "
+)
+
+PHRLEN=${#PHRASE[*]}
+
+echo ${PHRASE[$RANDOM % $PHRLEN]}${PREFIX[$RANDOM % $PRELEN]}${SUFFIX[$RANDOM % $SUFLEN]}
