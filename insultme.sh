@@ -11,6 +11,8 @@ slut
 douche
 bitch #?
 ass #?
+tit #?
+whore #?
 #phlegm #?
 )
 
@@ -35,6 +37,7 @@ socket #?
 #lord
 dumpster
 pickle
+tits #?
 )
 
 SUFLEN=${#SUFFIX[*]}
