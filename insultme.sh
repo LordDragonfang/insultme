@@ -34,6 +34,7 @@ hole
 nozzle
 nuts
 socket #?
+bucket #?
 #lord
 dumpster
 pickle
@@ -48,9 +49,11 @@ slutmuffin
 buckwheat
 "cock socket"
 fucktrumpet
+fuckbucket
 "shart goblin"
 cockwaffle
 shitlord
+shitgibbon
 )
 
 PHRASE=(
